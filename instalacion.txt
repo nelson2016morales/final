@@ -1,0 +1,26 @@
+1.- Instalar MySQL. 
+	Version: 5.5.5-10.4.17-MariaDB
+	crear usuario root y sin clave. (así se dejó seteado en properties)
+	(Asegurarse de que MySQL corre correctamente por puerto por default)
+	
+2.- Con dicho usuario crear Base de Datos con nombre crudTareasCoopeuch
+
+3.-Instalar Tomcat.
+    Version de desarrollo : 9
+	(Asegurarse de que tomcat corre correctamente por puerto por default)
+
+4.- Desde el repositorio tomar archivo war (ApiCrud.war) y alojarlo en carpeta webapps de tomcat.
+	(validar que no hay errores en log y que se refeja la bienveida de spring)
+	
+5.- Instalar NodeJs
+	Version usada en desarrollo: v18.17.0
+	
+6.- Desde el repositorio, bajar proyecto front (crudTareasFront).
+	
+	En la raiz del proyecto ejecutar : npm install	
+	En la raiz del proyecto ejecutar : npm start (se levanta explorador por default con el front)
+	
+	
+
+
+	
